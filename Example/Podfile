@@ -3,7 +3,7 @@ use_frameworks!
 platform :ios, '13.0'
 
 target 'CallerIdCoreData_Example' do
-  pod 'CallerIdCoreData', :path => '../'
+  pod 'CallerIdCoreDataPod', :path => '../'
 
   target 'CallerIdCoreData_Tests' do
     inherit! :search_paths

@@ -12,7 +12,6 @@
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
 		607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDC1AFB9204008FA782 /* Images.xcassets */; };
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
-		8DB2F7512B1A755A0087EB23 /* MyClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB2F7502B1A755A0087EB23 /* MyClass.swift */; };
 		C8F0F574BDA2EBF49F46C0C2 /* Pods_CallerIdCoreData_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 799C6904D1C2E3748E6A0509 /* Pods_CallerIdCoreData_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -33,7 +32,6 @@
 		799C6904D1C2E3748E6A0509 /* Pods_CallerIdCoreData_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CallerIdCoreData_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		7EB812A8635387A271672061 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		87A8B79872A107E61AADC749 /* CallerIdCoreData.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CallerIdCoreData.podspec; path = ../CallerIdCoreData.podspec; sourceTree = "<group>"; };
-		8DB2F7502B1A755A0087EB23 /* MyClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyClass.swift; sourceTree = "<group>"; };
 		E7BFC0DBABB733908030BE72 /* Pods-CallerIdCoreData_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallerIdCoreData_Tests.debug.xcconfig"; path = "Target Support Files/Pods-CallerIdCoreData_Tests/Pods-CallerIdCoreData_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		F183D8F399E9B91E9EDA181E /* Pods-CallerIdCoreData_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CallerIdCoreData_Example.release.xcconfig"; path = "Target Support Files/Pods-CallerIdCoreData_Example/Pods-CallerIdCoreData_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -73,7 +71,6 @@
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
-				8DB2F7502B1A755A0087EB23 /* MyClass.swift */,
 				607FACF51AFB993E008FA782 /* Podspec Metadata */,
 				607FACD21AFB9204008FA782 /* Example for CallerIdCoreData */,
 				607FACE81AFB9204008FA782 /* Tests */,
@@ -261,7 +258,6 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
-				8DB2F7512B1A755A0087EB23 /* MyClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
