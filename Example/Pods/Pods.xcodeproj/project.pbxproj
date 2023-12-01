@@ -38,7 +38,7 @@
 
 /* Begin PBXFileReference section */
 		00059557D8CBD65FB0F068C2CB991B17 /* Pods-CallerIdCoreData_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CallerIdCoreData_Example-umbrella.h"; sourceTree = "<group>"; };
-		20CCBBB26D6A7354EB31A71D2A675C0C /* CallerIdCoreData.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = CallerIdCoreData.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		20CCBBB26D6A7354EB31A71D2A675C0C /* CallerIdCoreData.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = CallerIdCoreData.podspec; sourceTree = "<group>"; tabWidth = 2; };
 		21745A5478881E8C53DB705AD8E3DAD6 /* Pods-CallerIdCoreData_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CallerIdCoreData_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		3D4A689AE9E61F99DE7B78D4944B5B73 /* CallerIdCoreData.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = CallerIdCoreData.modulemap; sourceTree = "<group>"; };
 		446BCB81A0AB5B733B89574016F4701B /* Pods-CallerIdCoreData_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CallerIdCoreData_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -57,10 +57,10 @@
 		8CF89F66AD5CA51B43B9B20247309738 /* Pods-CallerIdCoreData_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CallerIdCoreData_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		953AC2AB18EC7E2C90DD526BE833148F /* Pods-CallerIdCoreData_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CallerIdCoreData_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		966C3285CBFBBFAFB610A4935673B398 /* Pods-CallerIdCoreData_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CallerIdCoreData_Tests-Info.plist"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B5850B766767E0A9E89D75A94F1F0D41 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		B5850B766767E0A9E89D75A94F1F0D41 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		C6E45EE31EE6122763295FC38594733C /* CallerIdCoreData.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CallerIdCoreData.debug.xcconfig; sourceTree = "<group>"; };
-		D0B59D247FB09B1A23CA8646050943D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		D0B59D247FB09B1A23CA8646050943D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D1CBAD147968F8900D9C2DA54BA10E81 /* Pods-CallerIdCoreData_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CallerIdCoreData_Tests.modulemap"; sourceTree = "<group>"; };
 		D640EE697C38B856311DABB7B8E5B2A4 /* Pods-CallerIdCoreData_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CallerIdCoreData_Tests-dummy.m"; sourceTree = "<group>"; };
 		DC320D1075208FC4B4E74A360DD640B0 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CallerIdCoreData/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
@@ -593,8 +593,7 @@
 				MTL_FAST_MATH = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRIP_INSTALLED_PRODUCT = NO;
-				SWIFT_COMPILATION_MODE = wholemodule;
-				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
 				SWIFT_VERSION = 5.0;
 				SYMROOT = "${SRCROOT}/../build";
 			};

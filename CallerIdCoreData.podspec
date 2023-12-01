@@ -24,11 +24,11 @@ TODO: Add long description of the pod here.
   s.homepage         = 'https://github.com/Sean Wernimont/CallerIdCoreData'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'Sean Wernimont' => 'swernimo@users.noreply.github.com' }
+  s.author           = { 'Sean Wernimont' => 'sean@theblindsqrl.com' }
   s.source           = { :git => 'https://github.com/Sean Wernimont/CallerIdCoreData.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.ios.deployment_target = '10.0'
+  s.ios.deployment_target = '13.0'
 
   s.source_files = 'CallerIdCoreData/Classes/**/*'
   
