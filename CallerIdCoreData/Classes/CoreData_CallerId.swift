@@ -2,7 +2,7 @@
 import Foundation
 import CoreData
 
-class CoreData_CallerId {
+public class CoreData_CallerId {
     static let shared = CoreData_CallerId()
     private let groupName: String = "group.com.unanet.cosentialformobile"
     private static let entityName: String = "CallerInfo"
