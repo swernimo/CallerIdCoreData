@@ -7,7 +7,7 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'CallerIdCoreData'
+  s.name             = 'CallerIdCoreDataPod'
   s.version          = '0.0.1'
   s.summary          = 'A short description of CallerIdCoreData.'
 
