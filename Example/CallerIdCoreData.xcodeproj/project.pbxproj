@@ -148,8 +148,7 @@
 				8DB2F7462B1A70050087EB23 /* CallerIdModel.xcdatamodeld */,
 				8DB2F7492B1A70770087EB23 /* CallerIdCoreData.swift */,
 			);
-			name = Classes;
-			path = ../Classes;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
