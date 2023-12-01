@@ -22,7 +22,7 @@ pod 'CallerIdCoreData'
 
 ## Author
 
-Sean Wernimont, swernimo@users.noreply.github.com
+Sean Wernimont, sean@theblindsqrl.com
 
 ## License
 
