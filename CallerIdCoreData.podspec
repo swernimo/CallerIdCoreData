@@ -27,7 +27,7 @@ TODO: Add long description of the pod here.
   s.source           = { :git => 'https://github.com/Sean Wernimont/CallerIdCoreData.git', :tag => s.version.to_s }
   s.ios.deployment_target = '13.0'
 
-  s.source_files = 'CallerIdCoreData/**/*'
+  s.source_files = 'CallerIdCoreData/**/*.{swift,h,m,c,cc,mm,cpp,entitlements}'
   s.swift_version = '5.1'
   s.resources = 'CallerIdCoreData/**/CallerIdModel.xcdatamodeld'
 end
