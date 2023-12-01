@@ -89,6 +89,24 @@ public class CoreData_CallerId {
             }
         }
     }
+    
+    public func insertCallerInfo(displayName: String, companyName: String, phoneNumber: Int64, lastUpdated: Date?) -> Void {
+        do {
+            guard let context = CoreData_CallerId.shared.persistentContainer?.viewContext else { return }
+            let caller = CallerInfo(context: context)
+            caller.companyName = companyName
+            caller.displayName = displayName
+            caller.phoneNumber = phoneNumber
+            if lastUpdated != nil {
+                caller.lastUpdated = lastUpdated
+            } else {
+                caller.lastUpdated = Date()
+            }
+            try context.save()
+        } catch let err as NSError {
+            print("Error trying to insert new caller info: \(String(describing: err.localizedDescription))")
+        }
+    }
 }
 
 public extension URL {
