@@ -1,0 +1,22 @@
+{
+  "name": "CallerIdCoreData",
+  "version": "0.1.0",
+  "summary": "A short description of CallerIdCoreData.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Sean Wernimont/CallerIdCoreData",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Sean Wernimont": "swernimo@users.noreply.github.com"
+  },
+  "source": {
+    "git": "https://github.com/Sean Wernimont/CallerIdCoreData.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "CallerIdCoreData/Classes/**/*"
+}

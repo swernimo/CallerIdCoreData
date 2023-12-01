@@ -1,0 +1,16 @@
+PODS:
+  - CallerIdCoreData (0.1.0)
+
+DEPENDENCIES:
+  - CallerIdCoreData (from `../`)
+
+EXTERNAL SOURCES:
+  CallerIdCoreData:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CallerIdCoreData: 694964e50518f3de645f8adaaaf691ed7fea2f99
+
+PODFILE CHECKSUM: 52119cfce7f34628e5586a1554b881bdadd86e6a
+
+COCOAPODS: 1.12.0

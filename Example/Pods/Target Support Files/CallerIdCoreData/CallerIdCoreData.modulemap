@@ -1,0 +1,6 @@
+framework module CallerIdCoreData {
+  umbrella header "CallerIdCoreData-umbrella.h"
+
+  export *
+  module * { export * }
+}
