@@ -8,11 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		208FEE2EF43082B889E4C0656F45586A /* Pods-CallerIdCoreData_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 00059557D8CBD65FB0F068C2CB991B17 /* Pods-CallerIdCoreData_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		31A7FC81919750F1AE4D45948BC7EE14 /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC320D1075208FC4B4E74A360DD640B0 /* ReplaceMe.swift */; };
 		3E582C84DC340607667020A1BE533E1A /* Pods-CallerIdCoreData_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 798D7AF0C90666BE50FA902AF76807BA /* Pods-CallerIdCoreData_Example-dummy.m */; };
 		66FB3FDCF753E65EC82408EC85CDA86E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		748B71B36BAAC43EC5DAACB23C1AB804 /* CallerIdCoreData-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1AD1808E95AB20958988CD58E31704 /* CallerIdCoreData-dummy.m */; };
 		7B28230664E4C581EE30F0048A0FB859 /* Pods-CallerIdCoreData_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D640EE697C38B856311DABB7B8E5B2A4 /* Pods-CallerIdCoreData_Tests-dummy.m */; };
+		8DB2F74F2B1A741E0087EB23 /* CallerIdCoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB2F74D2B1A74190087EB23 /* CallerIdCoreData.swift */; };
 		A1F941A64762B0A1F560CC79DDC4CF48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C4C4C9C45043D43DC3E37203FF27041F /* Pods-CallerIdCoreData_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54E5FED7B1A2EAD8E2A38737D672CE4F /* Pods-CallerIdCoreData_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CB5F067956DA69C0BBD8FAB77470BFCA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
@@ -55,6 +55,8 @@
 		798D7AF0C90666BE50FA902AF76807BA /* Pods-CallerIdCoreData_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CallerIdCoreData_Example-dummy.m"; sourceTree = "<group>"; };
 		89A2275CB2741E465B7C2C067B0ADEB0 /* CallerIdCoreData-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CallerIdCoreData-Info.plist"; sourceTree = "<group>"; };
 		8CF89F66AD5CA51B43B9B20247309738 /* Pods-CallerIdCoreData_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CallerIdCoreData_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8DB2F74B2B1A74190087EB23 /* CallerIdModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CallerIdModel.xcdatamodel; sourceTree = "<group>"; };
+		8DB2F74D2B1A74190087EB23 /* CallerIdCoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallerIdCoreData.swift; sourceTree = "<group>"; };
 		953AC2AB18EC7E2C90DD526BE833148F /* Pods-CallerIdCoreData_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CallerIdCoreData_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		966C3285CBFBBFAFB610A4935673B398 /* Pods-CallerIdCoreData_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CallerIdCoreData_Tests-Info.plist"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
@@ -63,7 +65,6 @@
 		D0B59D247FB09B1A23CA8646050943D9 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		D1CBAD147968F8900D9C2DA54BA10E81 /* Pods-CallerIdCoreData_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CallerIdCoreData_Tests.modulemap"; sourceTree = "<group>"; };
 		D640EE697C38B856311DABB7B8E5B2A4 /* Pods-CallerIdCoreData_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CallerIdCoreData_Tests-dummy.m"; sourceTree = "<group>"; };
-		DC320D1075208FC4B4E74A360DD640B0 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = CallerIdCoreData/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
 		DF7FB74C024023C7F53E46CCD5B921B6 /* Pods-CallerIdCoreData_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CallerIdCoreData_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		E83B14E99B9603288E2B6A07B7A57E3B /* CallerIdCoreData */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = CallerIdCoreData; path = CallerIdCoreData.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE766718DD71F19974BB51A2548E49FC /* CallerIdCoreData-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CallerIdCoreData-umbrella.h"; sourceTree = "<group>"; };
@@ -103,7 +104,8 @@
 		0DD10D3619334B04C6E976CB529F264F /* CallerIdCoreData */ = {
 			isa = PBXGroup;
 			children = (
-				DC320D1075208FC4B4E74A360DD640B0 /* ReplaceMe.swift */,
+				8DB2F74D2B1A74190087EB23 /* CallerIdCoreData.swift */,
+				8DB2F74C2B1A74190087EB23 /* CallerIdModel.xcdatamodeld */,
 				EDAB821A4A69915635D0CAE1F2B6A479 /* Pod */,
 				2CC23820469D535CBD24D9E8CE1A3130 /* Support Files */,
 			);
@@ -383,8 +385,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8DB2F74F2B1A741E0087EB23 /* CallerIdCoreData.swift in Sources */,
 				748B71B36BAAC43EC5DAACB23C1AB804 /* CallerIdCoreData-dummy.m in Sources */,
-				31A7FC81919750F1AE4D45948BC7EE14 /* ReplaceMe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -770,6 +772,18 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		8DB2F74C2B1A74190087EB23 /* CallerIdModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				8DB2F74B2B1A74190087EB23 /* CallerIdModel.xcdatamodel */,
+			);
+			currentVersion = 8DB2F74B2B1A74190087EB23 /* CallerIdModel.xcdatamodel */;
+			path = CallerIdModel.xcdatamodeld;
+			sourceTree = "<group>";
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }
