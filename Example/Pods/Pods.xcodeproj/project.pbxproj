@@ -12,7 +12,7 @@
 		66FB3FDCF753E65EC82408EC85CDA86E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		748B71B36BAAC43EC5DAACB23C1AB804 /* CallerIdCoreData-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6F1AD1808E95AB20958988CD58E31704 /* CallerIdCoreData-dummy.m */; };
 		7B28230664E4C581EE30F0048A0FB859 /* Pods-CallerIdCoreData_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D640EE697C38B856311DABB7B8E5B2A4 /* Pods-CallerIdCoreData_Tests-dummy.m */; };
-		8DB2F7552B1A79F40087EB23 /* CoreData_CallerIdswift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB2F7522B1A79F30087EB23 /* CoreData_CallerIdswift */; };
+		8DB2F7552B1A79F40087EB23 /* CoreData_CallerId.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8DB2F7522B1A79F30087EB23 /* CoreData_CallerId.swift */; };
 		8DB2F7562B1A79F40087EB23 /* CallerIdModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8DB2F7532B1A79F30087EB23 /* CallerIdModel.xcdatamodeld */; };
 		A1F941A64762B0A1F560CC79DDC4CF48 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
 		C4C4C9C45043D43DC3E37203FF27041F /* Pods-CallerIdCoreData_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 54E5FED7B1A2EAD8E2A38737D672CE4F /* Pods-CallerIdCoreData_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -56,7 +56,7 @@
 		798D7AF0C90666BE50FA902AF76807BA /* Pods-CallerIdCoreData_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CallerIdCoreData_Example-dummy.m"; sourceTree = "<group>"; };
 		89A2275CB2741E465B7C2C067B0ADEB0 /* CallerIdCoreData-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "CallerIdCoreData-Info.plist"; sourceTree = "<group>"; };
 		8CF89F66AD5CA51B43B9B20247309738 /* Pods-CallerIdCoreData_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CallerIdCoreData_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		8DB2F7522B1A79F30087EB23 /* CoreData_CallerIdswift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CoreData_CallerIdswift; path = CallerIdCoreData/Classes/CoreData_CallerIdswift; sourceTree = "<group>"; };
+		8DB2F7522B1A79F30087EB23 /* CoreData_CallerId.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CoreData_CallerId.swift; path = CallerIdCoreData/Classes/CoreData_CallerId.swift; sourceTree = "<group>"; };
 		8DB2F7542B1A79F30087EB23 /* CallerIdModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = CallerIdModel.xcdatamodel; sourceTree = "<group>"; };
 		953AC2AB18EC7E2C90DD526BE833148F /* Pods-CallerIdCoreData_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CallerIdCoreData_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		966C3285CBFBBFAFB610A4935673B398 /* Pods-CallerIdCoreData_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CallerIdCoreData_Tests-Info.plist"; sourceTree = "<group>"; };
@@ -105,7 +105,7 @@
 		0DD10D3619334B04C6E976CB529F264F /* CallerIdCoreData */ = {
 			isa = PBXGroup;
 			children = (
-				8DB2F7522B1A79F30087EB23 /* CoreData_CallerIdswift */,
+				8DB2F7522B1A79F30087EB23 /* CoreData_CallerId.swift */,
 				8DB2F7532B1A79F30087EB23 /* CallerIdModel.xcdatamodeld */,
 				EDAB821A4A69915635D0CAE1F2B6A479 /* Pod */,
 				2CC23820469D535CBD24D9E8CE1A3130 /* Support Files */,
@@ -392,7 +392,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8DB2F7562B1A79F40087EB23 /* CallerIdModel.xcdatamodeld in Sources */,
-				8DB2F7552B1A79F40087EB23 /* CoreData_CallerIdswift in Sources */,
+				8DB2F7552B1A79F40087EB23 /* CoreData_CallerId.swift in Sources */,
 				748B71B36BAAC43EC5DAACB23C1AB804 /* CallerIdCoreData-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
