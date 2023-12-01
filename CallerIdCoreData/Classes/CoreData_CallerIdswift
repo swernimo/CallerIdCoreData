@@ -2,14 +2,14 @@
 import Foundation
 import CoreData
 
-class CallerIdCoreData {
-    static let shared = CallerIdCoreData()
+class CoreData_CallerId {
+    static let shared = CoreData_CallerId()
     private let groupName: String = "group.com.unanet.cosentialformobile"
     private static let entityName: String = "CallerInfo"
     private static let modelName: String = "CallerIdModel"
   
     public var persistentContainer: NSPersistentContainer? = {
-      let modelURL = Bundle(for: CallerIdCoreData.self).url(forResource: modelName, withExtension: "momd")
+      let modelURL = Bundle(for: CoreData_CallerId.self).url(forResource: modelName, withExtension: "momd")
       var container: NSPersistentContainer
       
       guard let model = modelURL.flatMap(NSManagedObjectModel.init) else {
