@@ -27,6 +27,19 @@ public class CoreData_CallerId {
       return container
     }()
     
+    public lazy var persistentContainerForAppGroup: NSPersistentContainer = {
+        let storeURL = URL.storeURL(for: groupName, databaseName: CoreData_CallerId.modelName)
+        let storeDescription = NSPersistentStoreDescription(url: storeURL)
+        let container = NSPersistentContainer(name: CoreData_CallerId.modelName)
+        container.persistentStoreDescriptions = [storeDescription]
+        container.loadPersistentStores(completionHandler: { (storeDescription, error) in
+            if let error = error as NSError? {
+                fatalError("Unresolved error \(error), \(error.userInfo)")
+            }
+        })
+        return container
+    }()
+    
     public func getCallerInfoArray() -> [CallerInfo] {
         var callers: [CallerInfo] = []
         do {
@@ -86,6 +99,6 @@ public extension URL {
             fatalError("Shared file container could not be created.")
         }
 
-        return fileContainer.appendingPathComponent("\(databaseName).sqlite")
+        return fileContainer.appendingPathComponent("\(databaseName).momd")
     }
 }
